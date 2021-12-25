@@ -105,9 +105,9 @@ module.exports = async function (context, req) {
             await page.goBack();
         }
 
-        await page.hover(search_terms[random].navbar_dropdown_id);
+        // await page.hover(search_terms[random].navbar_dropdown_id);
 
-        await page.click(search_terms[random].navbar_dropdown_items_id);
+        // await page.click(search_terms[random].navbar_dropdown_items_id);
 
         // let el = await page.xpath('//*[@id="menu-item-8696"]');
 
